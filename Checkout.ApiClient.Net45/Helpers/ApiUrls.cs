@@ -183,6 +183,6 @@
                 (_recurringCustomerPaymentPlanApiUri =
                     string.Concat(AppSettings.BaseApiUri, "/recurringPayments/customers/{0}"));
 
-        public static string DrinkWebApi = "http://localhost:61670/api/shoppinglist/{0}";
+        public static string DrinkWebApi = AppSettings.ExternalApi;;
     }
 }

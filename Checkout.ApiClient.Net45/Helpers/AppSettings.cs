@@ -22,6 +22,12 @@ namespace Checkout
         public const string ClientUserAgentName = "Checkout-DotNetLibraryClient/v1.0";
         public const string DefaultContentType = "application/json";
 
+        private static string _externalApi;
+        public static string ExternalApi
+        {
+            get { return _externalApi ?? (_externalApi = ReadConfig("Checkout.ExternalApi", true)); }
+            set { _externalApi = value; }
+        }
         public static string BaseApiUri
         {
             get { return _baseApiUri; }
