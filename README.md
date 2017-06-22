@@ -2,9 +2,9 @@
 
 ### Carlo's notes here
 
-A folder to manage the shopping list APIs has been added
-To make it works you need to run the ChechoutWebService project and set the ExternalApi url accordingly
-On test project there are few test to check the shopping list APIs
+A folder to manage the shopping list APIs has been added.
+To make it works you need to run the ChechoutWebService project and set the ExternalApi url accordingly.
+On test project there are few test to check the shopping list APIs.
 
 ### Requirements
 
